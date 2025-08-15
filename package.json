@@ -4,9 +4,9 @@
   "description": "Ứng dụng giúp người sử dụng giải quyết các vấn đề liên quan đến việc nghe hiểu thông tin trong môi trường học tập và làm việc.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run client\" \"nodemon server.js\""
+    "start": "node server.js",  // Start the server
+    "client": "npm start --prefix client",  // Start the client application
+    "dev": "concurrently \"npm run client\" \"nodemon server.js\""  // Run client and server concurrently for development
   },
   "dependencies": {
     "express": "^4.17.1",
